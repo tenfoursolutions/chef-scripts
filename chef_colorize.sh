@@ -1,4 +1,4 @@
-#!/bin/awk
+#!/usr/bin/awk
 {
   print $0
 }
