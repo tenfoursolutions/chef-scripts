@@ -1,4 +1,4 @@
-curl -Ls https://github.com/tenfoursolutions/chef-scripts/raw/master/chef_colorize.sh -o /usr/local/bin/chef_colorize
+curl -L -s https://github.com/tenfoursolutions/chef-scripts/raw/master/chef_colorize.sh -o /usr/local/bin/chef_colorize
 chmod +x /usr/local/bin/chef_colorize
-curl -Ls https://github.com/tenfoursolutions/chef-scripts/raw/master/run_chef.sh -o /usr/local/bin/run_chef
+curl -L -s https://github.com/tenfoursolutions/chef-scripts/raw/master/run_chef.sh -o /usr/local/bin/run_chef
 chmod +x /usr/local/bin/run_chef
